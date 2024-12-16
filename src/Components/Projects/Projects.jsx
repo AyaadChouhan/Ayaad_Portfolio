@@ -15,7 +15,7 @@ import coinSeekPhone2 from '/coinSeek_phone2.png'
 import coinSeekPhone3 from '/coinSeek_phone3.png'
 import coinSeekPhone4 from '/coinSeek_phone4.png'
 import coinSeekPhone5 from '/coinSeek_phone5.png'
-import coinSeek from '/coinSeek.mp4'
+import coinSeek from '/coinSeek1.mp4'
 import { useInView } from 'framer-motion';
 import { useOutlet, useOutletContext } from 'react-router-dom';
 
