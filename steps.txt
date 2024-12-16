@@ -1,0 +1,28 @@
+> logo as B    ../
+> about instead of education  ../
+> make links work    ../
+> use nav instead of div  ../
+> animation for nav links hover  ../
+> animation for nav icons hover  ../
+> dropdown nav bar
+> complete responsive nav bar
+
+> all div according to max width
+
+>animation for frontend , backend , fullstack on home page
+
+
+> setup contact me page
+> ...
+
+
+
+
+
+
+
+
+anon (full screen + vid  ../ , mobile + screenShot)
+notesapp (full screen and mobile + screen shots)
+timetable (full screen and mobile + screen shots)
+sb air ( full screen + vid ../)
