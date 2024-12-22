@@ -75,7 +75,7 @@ const About = () => {
                     <FadeInDiv
                         element={
                             <p className='text-lg sm:text-xl text-[#CFCFCF]'>
-                                I’m Asif Khan, a Full Stack Developer from Bikaner, Rajasthan. I have over two years of experience building web applications that are both scalable and user-friendly. I completed my B.Tech in Computer Science fromUniversity College of Engineering and Technology ,Bikaner. I work with technologies like React.js, Node.js, MongoDB, and PostgreSQL, and I enjoy creating seamless frontends and efficient backends.
+                                I’m Asif Khan, Software Engineer from Bikaner, Rajasthan. I have over two years of experience building web applications that are both scalable and user-friendly. I completed my B.Tech in Computer Science fromUniversity College of Engineering and Technology ,Bikaner. I work with technologies like React.js, Node.js, MongoDB, and PostgreSQL, and I enjoy creating seamless frontends and efficient backends.
                             </p>
                         }
                         delay={.4}
