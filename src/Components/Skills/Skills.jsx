@@ -2,8 +2,15 @@ import { useInView } from 'framer-motion';
 import { motion } from 'framer-motion';
 import React, { useEffect, useRef } from 'react';
 import { useOutletContext } from 'react-router-dom';
-import { FaJsSquare, FaReact, FaNodeJs, FaGitAlt, FaDocker, FaPalette } from 'react-icons/fa';
-import { SiTypescript, SiExpress, SiNestjs, SiMongodb, SiMysql, SiPostgresql, SiTailwindcss, SiBootstrap, SiFirebase } from 'react-icons/si';
+import {
+    FaJsSquare, FaReact, FaNodeJs, FaGitAlt, FaDocker, FaPalette,
+} from 'react-icons/fa';
+import {
+    SiTypescript, SiExpress, SiNestjs, SiMongodb, SiMysql,
+    SiPostgresql, SiTailwindcss, SiBootstrap, SiFirebase,
+} from 'react-icons/si';
+import { SiJest } from 'react-icons/si'; // Jest icon
+import { GrTest } from 'react-icons/gr'; // React Testing Library icon
 import FadeInDiv from '../FadeInDiv';
 
 const Skills = () => {
@@ -11,7 +18,6 @@ const Skills = () => {
 
     const ref = useRef(null);
     const isInView = useInView(ref, { margin: '-180px 0px -180px 0px' });
-
 
     useEffect(() => {
         if (isInView) {
@@ -43,6 +49,8 @@ const Skills = () => {
         { name: 'Tailwind CSS', icon: <SiTailwindcss className="w-14 h-14 text-teal-400" /> },
         { name: 'Bootstrap', icon: <SiBootstrap className="w-14 h-14 text-purple-600" /> },
         { name: 'Firebase', icon: <SiFirebase className="w-14 h-14 text-yellow-400" /> },
+        { name: 'Jest', icon: <SiJest className="w-14 h-14 text-red-600" /> }, // Jest Icon
+        { name: 'React Testing Library', icon: <GrTest className="w-14 h-14 text-[#FF9900]" /> }, // React Testing Library Icon
     ];
 
     const containerVariants = {
