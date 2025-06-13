@@ -26,7 +26,7 @@ function App() {
         <RouterProvider router={router} />
         <div className='text-[#CFCFCF] absolute bottom-8 w-full left-0 flex justify-center'>
           <span >
-            Crafted by Asif Khan
+            Crafted by Ayaad Chouhan
           </span>
         </div>
       </div>

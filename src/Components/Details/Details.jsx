@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
 import React, { useEffect } from 'react'
 import { FaFileDownload } from "react-icons/fa";
 import { motion } from 'framer-motion'

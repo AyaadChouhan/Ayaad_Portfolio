@@ -142,7 +142,7 @@ const Navbar = () => {
                                 whileHover={{ scale: 1.03, color: '#00EEFF', transition: { duration: .6 } }}
                                 className='text-[#7e7979]'
                             >
-                                <a href="https://www.instagram.com/_asifkhann_/">
+                                <a href="https://www.instagram.com/_a.y.a.a.d_ch/">
                                     <FaInstagram color='inherit' size={24} />
                                 </a>
                             </motion.li>
@@ -151,7 +151,7 @@ const Navbar = () => {
                                 whileHover={{ scale: 1.03, color: '#00EEFF', transition: { duration: .6 } }}
                                 className='text-[#7e7979]'
                             >
-                                <a href="https://www.linkedin.com/in/asif-khan-69493a230/">
+                                <a href="https://www.linkedin.com/in/ayaad-chouhan-0b8a0a248">
                                     <FaLinkedin color='inherit' size={24} />
                                 </a>
                             </motion.li>
@@ -160,7 +160,7 @@ const Navbar = () => {
                                 whileHover={{ scale: 1.03, color: '#00EEFF', transition: { duration: .6 } }}
                                 className='text-[#7e7979]'
                             >
-                                <a href="https://github.com/asifkhan231">
+                                <a href="https://github.com/ayaadchouhan">
                                     <RiGithubFill color='inherit' size={24} />
                                 </a>
                             </motion.li>

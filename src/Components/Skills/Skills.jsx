@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import React, { useEffect, useRef } from 'react';
 import { useOutletContext } from 'react-router-dom';
 import {
-    FaJsSquare, FaReact, FaNodeJs, FaGitAlt, FaDocker, FaPalette,
+    FaJsSquare, FaReact, FaNodeJs, FaGitAlt, FaDocker, FaPalette
 } from 'react-icons/fa';
 import {
     SiTypescript, SiExpress, SiNestjs, SiMongodb, SiMysql,

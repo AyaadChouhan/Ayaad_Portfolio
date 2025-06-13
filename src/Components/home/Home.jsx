@@ -26,7 +26,7 @@ const Home = () => {
         const heading = headingRef.current;
 
         if (heading && isInView) {
-            heading.dataset.value = 'ASIF KHAN';
+            heading.dataset.value = 'AYAAD CHOUHAN';
 
             let iteration = 0;
             const interval = setInterval(() => {

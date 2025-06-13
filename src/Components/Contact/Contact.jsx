@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import { IoMdSend } from 'react-icons/io'
 import FadeInDiv from '../FadeInDiv'
