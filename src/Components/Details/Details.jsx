@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 import { FaFileDownload } from "react-icons/fa";
 import { motion } from 'framer-motion'
 import { useOutletContext } from 'react-router-dom';
-import resume from '/Asif_resume.pdf'
+import resume from '/Ayaad_Resume.pdf'
 import FadeInDiv from '../FadeInDiv';
 const Details = () => {
     const { setLinkActive } = useOutletContext()
@@ -40,7 +40,7 @@ const Details = () => {
                             <>
                                 <h3 className='text-slate-400 mb-1'>Download</h3>
                                 <span className='text-[#00EEFF] cursor-pointer text-xl lg:text-2xl'>
-                                    <a className='flex items-center gap-2' href={resume} download="Asif_resume.pdf">
+                                    <a className='flex items-center gap-2' href={resume} download="Ayaad_Resume.pdf">
                                         {`> My Resume`} <FaFileDownload />
                                     </a>
                                 </span>
